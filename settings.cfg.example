@@ -1,0 +1,5 @@
+[default]
+access_key = AWSKEY
+secret = AWSSecret
+bucket = YourBucket
+region = YourRegion
