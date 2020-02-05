@@ -92,7 +92,7 @@ def get_file_path():
 
 get_settings()
 file = get_file_path()
-remote_file = localfile
+remote_file = os.path.basename(file)
 urls = upload_to_aws(file,remote_file)
 count = 1
 for x in urls:
